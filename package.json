@@ -1,13 +1,11 @@
 {
   "name": "@chatwoot/docusaurus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatwoot plugin for docusaurus",
   "main": "src/index.js",
+  "private": false,
   "dependencies": {},
   "devDependencies": {},
-  "peerDependencies": {
-    "@docusaurus/core": "^2.0.0"
-  },
   "files": [
     "src",
     "LICENSE",
