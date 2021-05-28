@@ -1,4 +1,4 @@
-### @chatwoot/docusaurus
+### @chatwoot/docusaurus-plugin
 
 This plugin enables Chatwoot in Docusaurus powered websites.
 
@@ -7,13 +7,13 @@ This plugin enables Chatwoot in Docusaurus powered websites.
 1. Add the plugin to your project.
 
 ```
-yarn add @chatwoot/docusaurus
+yarn add @chatwoot/docusaurus-plugin
 ```
 
 or
 
 ```
-npm install @chatwoot/docusaurus --save
+npm install @chatwoot/docusaurus-plugin --save
 ```
 
 2. Configure the plugin in `docusaurus.config.js`
@@ -21,7 +21,7 @@ npm install @chatwoot/docusaurus --save
 ```js
 // docusaurus.config.js
 module.exports = {
-  plugins: ["@chatwoot/docusaurus"],
+  plugins: ["@chatwoot/docusaurus-plugin"],
   themeConfig: {
     chatwoot: {
       websiteToken: "Your website inbox token",
