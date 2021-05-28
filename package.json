@@ -1,0 +1,33 @@
+{
+  "name": "@chatwoot/docusaurus",
+  "version": "1.0.0",
+  "description": "Chatwoot plugin for docusaurus",
+  "main": "src/index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {
+    "@docusaurus/core": "^2.0.0"
+  },
+  "files": [
+    "src",
+    "LICENSE",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=10.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chatwoot/docusaurus.git"
+  },
+  "keywords": [
+    "docusaurus",
+    "chatwoot"
+  ],
+  "author": "Pranav Raj S",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chatwoot/docusaurus/issues"
+  },
+  "homepage": "https://github.com/chatwoot/docusaurus#readme"
+}
