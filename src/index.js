@@ -40,7 +40,7 @@ module.exports = function(context) {
           {
             tagName: "script",
             innerHTML: `
-              window.chatwootSettings = ${chatwootSettings || {}};
+              window.chatwootSettings = ${JSON.stringify(chatwootSettings || {})};
 
               (function(d,t) {
                 var BASE_URL="${baseURL}";
