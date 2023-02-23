@@ -14,7 +14,8 @@ module.exports = function(context) {
   const {
     websiteToken,
     baseURL = "https://app.chatwoot.com",
-    enableInDevelopment = false
+    enableInDevelopment = false,
+    chatwootSettings = {}
   } = chatwoot;
 
   if (!websiteToken) {
@@ -39,6 +40,8 @@ module.exports = function(context) {
           {
             tagName: "script",
             innerHTML: `
+              window.chatwootSettings = ${chatwootSettings || {}};
+
               (function(d,t) {
                 var BASE_URL="${baseURL}";
                 var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
