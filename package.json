@@ -1,6 +1,6 @@
 {
   "name": "@chatwoot/docusaurus-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Chatwoot plugin for docusaurus",
   "main": "src/index.js",
   "private": false,
